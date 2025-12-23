@@ -1,33 +1,42 @@
-# Void Linux Troubleshooting & Bug Fixes
+# Void Linux Troubleshooting
 
-This repository contains **real-world troubleshooting logs and fixes** for Void Linux.
+Welcome to **Void Linux Troubleshooting** — a beginner‑friendly collection of real fixes and guides for common Void Linux problems.
 
-I created this repo because beginners often face problems on Void Linux that are:
-- poorly documented
-- scattered across forums
-- confusing for new users
+This repo contains step‑by‑step solutions that you can copy‑paste directly into your terminal or config files, written in simple English for newcomers and advanced users alike.
 
-Here, I upload **step-by-step solutions** for issues I personally faced and fixed, written in a **clear and beginner-friendly way**.
+## 📌 Guides
 
-## What this repo is for
-- Void Linux beginners
-- Users coming from Windows / Manjaro / Ubuntu
-- People stuck with missing fonts, Unicode issues, locale bugs, or system misconfigurations
-- Anyone who wants **copy-paste solutions that actually work**
+### Fonts & Unicode
+- [Devanagari / Indic Fonts Fix](fonts/devanagari.md)
 
-## What you will find here
-- Font & Unicode fixes (Devanagari, Arabic, Emoji, etc.)
-- Locale and language issues
-- Common Void Linux pitfalls
-- Clean terminal commands
-- No unnecessary theory, no confusion
+## 🧠 About This Repository
 
-## Philosophy
-Void Linux is stable and powerful, but it expects users to know what they are doing.
-This repo bridges that gap by documenting problems **the way a beginner experiences them**, and fixing them **the right way**.
+Void Linux is powerful and stable, but its minimal design can cause confusion when things like fonts, locales, or Unicode don’t work out of the box. This repository fills that gap with clear troubleshooting guides.
 
-If this helps even one new Void user avoid hours of frustration, this repo has done its job.
+## 🚀 How to Contribute
 
+If you faced a Void Linux problem and found a solution, add it here!
+
+1. Fork the repository
+2. Create a Markdown file inside a relevant folder (e.g., `fonts/`, `locale/`, etc.)
+3. Write your fix with copy‑paste ready commands
+4. Open a Pull Request
+
+## 📌 Recommended Structure
+
+void-linux-troubleshooting/
+├── README.md
+├── fonts/
+│ └── devanagari.md
+├── locale/
+│ └── utf8.md
+├── scripts/
+│ └── fix-something.sh
+├── CONTRIBUTING.md
+├── LICENSE
+└── .github/
+└── ISSUE_TEMPLATE/
+└── bug_report.md
 ---
 
-Maintained by a Void Linux user, for Void Linux users.
+Happy troubleshooting with Void!
